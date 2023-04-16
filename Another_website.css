@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #080808;
+    color: #fff;
+}
+
+#header{
+    width: 100%;
+    height:100vh;
+
+}
+.logo{
+    color: orangered;
+    font-size: 30px;
+    padding: 20px 25px 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 32px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav ul li a:hover::before{
+    width: 50%;
+    transform: translateX(100%);
+   
+}
+
+.header-txt{
+    margin-top: 20px;
+    font-size: 25px;
+    margin: 0 25px;
+    
+}
+
+.header-txt p{
+    margin-top: 100px;
+}
+.header-txt h1{
+    margin-top: 30px;
+    font-size: 60px;
+}
+.header-txt h1 span{
+    color: #ff004f;
+
+}
+/*------------ -about-------*/
+
+#about{
+    padding: 80px 0;
+    color: #ababab;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(570px,auto));
+    gap: 25px;
+    
+}
+.about-col-1{
+    flex-basis: 35px;
+    
+   
+}
+
+.about-col-1 img{
+    width:100%;
+    border-radius: 15px;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+    
+
+
+}
+
+.font{
+    font-size: 60px;
+    font-weight: 600px;
+    color: #fff;
+}
+
+.title{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight:500;
+    cursor:pointer;
+}
+
+.tab-contents ul li{
+    list-style:none;
+    margin:10px 0;
+    
+}
+.tab-contents ul li span{
+    color: #ff004f;
+    font-size:14px;
+    
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+    display: block;
+}
+#services{
+    padding:50px 15px;
+
+}
+
+.service-list{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:40px;
+    margin-top: 50px;
+}
+.service-list p{
+    margin-top: 12px;
+}
+
+.service-list div{
+    background: #262626;
+    padding: 40px;
+    font-size:13px;
+    font-weight:300;
+    border-radius: 10px;
+    transition:background 0.5s,transform 0.5s;
+
+}
+.service-list div i{
+    font-size: 40px;
+    margin-bottom:30px;
+}
+
+.service-list div h2{
+    font-size:30px ;
+}
+
+.service-list div a{
+    text-decoration: none;
+    color:#fff;
+    font-size:12px;
+    margin-top:20px;
+    display:inline-block;
+}
+.service-list div:hover{
+    background: #ff004f;
+    transform: translateY(-10px);
+}
+
+#portfolio{
+    padding: 50px 15px;
+}
+
+.work{
+    margin-top: 35px;
+}
+.work-list{
+   margin-left: 60px;
+   
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:5px;
+    margin-top: 50px;
+    color:white;
+   
+}
+
+.work-list h2{
+    
+    margin: 0 60px;
+    padding: 5px ;
+}
+
+.work-list p{
+    text-decoration: none;
+    padding:5px;
+}
+
+.layer{
+    width:78%;
+    height:100px;
+    border-radius: 10px;
+    background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    gap:5px;
+}
+
+.contect-left{
+    flex-basis:35%;
+}
+
+.contect-right{
+    flex-basis:35%;
+}
+.contect-left p{
+    margin-top:7px;
+    
+}
+.contect-left{
+    margin: 20px;
+    
+}
+.contect-left p{
+    margin:10px 10px;
+}
+
+.social-icons a{
+    margin: 10px;
+    padding:auto 5px;
+
+}
+
+
+.contect-left p i{
+    color:#ff004f;
+    margin-right:15px;
+    font-size: 25px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size:25px;
+    
+    color: #ff004f;
+    display: inline-block;
+}
+
+
+
+.social-icons a{
+    color:#ff004f;
+    transform: translateY(-5px);
+}
+
+.btn{
+    display: inline-block;
+    background: #ff004f;
+    font-size:15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding:10px;
+    margin:0 10px;
+}
+.contect-right form{
+    width:100%;
+   
+    margin:0 15px;
+ 
+}
+
+form input,form textarea{
+    width:85%;
+    border:0;
+    outline: none;
+    background: #262626;
+    padding: 10px;
+    margin: 15px 20px;
+
+}
+
+form btn2{
+    padding:;
+}
